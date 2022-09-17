@@ -22,11 +22,11 @@ palindrome(“nope”) should return false.
 
 #### For this solution, I'll use 5 methods:
 
-The toLowerCase() method to return the calling string value converted to lowercase.
-The replace() method to return a new string with some or all matches of a pattern replaced by a replacement. We will use one of the RegExp we just created earlier.
-The split() method splits a String object into an array of strings by separating the string into sub strings.
-The reverse() method reverses an array in place. The first array element becomes the last and the last becomes the first.
-The join() method joins all elements of an array into a string.
+(1) The toLowerCase() method to return the calling string value converted to lowercase.
+(2) The replace() method to return a new string with some or all matches of a pattern replaced by a replacement. We will use one of the RegExp we just created earlier.
+(3) The split() method splits a String object into an array of strings by separating the string into sub strings.
+(4) The reverse() method reverses an array in place. The first array element becomes the last and the last becomes the first.
+(5) The join() method joins all elements of an array into a string.
 
 ### Solution:
 
