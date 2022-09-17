@@ -23,7 +23,7 @@ palindrome(“My age is 0, 0 si ega ym.”) should return true
 palindrome(“1 eye for of 1 eye.”) should return false
 palindrome(“0_0 (: /-\ :) 0–0”) should return true
 
-### For this solution, I'll use 5 methods:
+#### For this solution, I'll use 5 methods:
 
 The toLowerCase() method to return the calling string value converted to lowercase.
 The replace() method to return a new string with some or all matches of a pattern replaced by a replacement. We will use one of the RegExp we just created earlier.
