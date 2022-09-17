@@ -59,4 +59,4 @@ The join() method joins all elements of an array into a string.
 
 #### console.log(palindrome==palindrome);
 
-#### Output: true
+### Output: true
