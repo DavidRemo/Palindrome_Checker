@@ -32,6 +32,7 @@ palindrome(“nope”) should return false.
 
 function palindrome(str) {  
   // Step 1. Lowercase the string and use the RegExp to remove unwanted characters from it  
+    
   &ensp; var re = /[\W_]/g;  
   &ensp; // or var re = /[^A-Za-z0-9]/g;  
     
@@ -41,6 +42,7 @@ function palindrome(str) {
   &ensp; // var lowRegStr = "amanaplanacanalpanama";  
     
   &ensp; // Step 2. Use the same chaining methods with built-in functions  
+    
   &ensp; var reverseStr = lowRegStr.split('').reverse().join('');   
   &ensp; // lowRegStr.split('') = "amanaplanacanalpanama".split('') = ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"]  
   &ensp; // ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"].reverse() = ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"]  
@@ -49,6 +51,7 @@ function palindrome(str) {
   &ensp; // And, var reverseStr = "amanaplanacanalpanama";  
      
   &ensp; // Step 3. Check if reverseStr is strictly equals to lowRegStr and return a Boolean  
+    
   &ensp; return reverseStr === lowRegStr; // "amanaplanacanalpanama" === "amanaplanacanalpanama"? => true  
 }  
   
